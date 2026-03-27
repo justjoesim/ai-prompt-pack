@@ -1,0 +1,26 @@
+{
+  "name": "ultimate-ai-prompt-pack",
+  "version": "2.0.0",
+  "description": "100 ready-to-use AI prompts for professionals",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:pdf": "node scripts/build-pdf.js",
+    "build:prompts": "node scripts/export-prompts.js",
+    "build": "node scripts/build-pdf.js && node scripts/export-prompts.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "serve": "npx serve src/ -l 3456"
+  },
+  "keywords": [
+    "ai",
+    "prompts",
+    "professional",
+    "marketing",
+    "content-creation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "md-to-pdf": "^5.2.5"
+  }
+}

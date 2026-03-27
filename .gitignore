@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+
+# Product files — DO NOT push to public repo
+content/
+dist/
+promo/
+scripts/
+tests/
+.sisyphus/
